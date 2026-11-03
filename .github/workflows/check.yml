@@ -1,0 +1,41 @@
+# The evidence site's checks (argus-claims docs/dark-factory/02-sa-service-map §5.3). Advisory: a private repo on the
+# free plan can't require it, so a red check is the merger's signal. Actions minutes are paid, so it runs only on pull
+# requests into main that are ready for review. Every .md other than README.md is content here (index.md, changelog.md,
+# a run's claims.md), so only README.md and docs/ are skipped.
+name: check
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths-ignore:
+      - 'README.md'
+      - 'docs/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # I-5 compares with the base commit
+      - name: Tests
+        run: python3 -I -m unittest discover -s tools/tests
+      - name: Invariants I-1 to I-9 (I-5 against main; publication rules on a claims/* branch)
+        env:
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          extra=""
+          case "$HEAD_REF" in
+            claims/*) extra="--publication" ;;
+          esac
+          python3 -I tools/build.py --check --base origin/main $extra
