@@ -1,0 +1,24 @@
+{
+  "buildCommand": "python3 -I tools/build.py --out dist",
+  "outputDirectory": "dist",
+  "installCommand": "",
+  "framework": null,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "Strict-Transport-Security", "value": "max-age=31536000; includeSubDomains" }
+      ]
+    },
+    { "source": "/evidence", "headers": [{ "key": "Vary", "value": "Accept" }] },
+    { "source": "/evidence/:path*", "headers": [{ "key": "Vary", "value": "Accept" }] },
+    { "source": "/(.*).md", "headers": [{ "key": "Content-Type", "value": "text/markdown; charset=utf-8" }] },
+    { "source": "/(.*).jsonl", "headers": [{ "key": "Content-Type", "value": "application/x-ndjson; charset=utf-8" }] },
+    { "source": "/(.*).sha256", "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }] }
+  ]
+}

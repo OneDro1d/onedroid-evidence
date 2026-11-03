@@ -35,6 +35,15 @@ import urllib.parse
 
 TOOLS = pathlib.Path(__file__).resolve().parent
 KIT = TOOLS / "toolkit"
+MIN_PYTHON = (3, 11)  # datetime.fromisoformat reading "…Z"; the Vercel build image's python3 is not checked yet (spike S-1)
+
+
+def python_ok(version=sys.version_info):
+    return tuple(version[:2]) >= MIN_PYTHON
+
+
+if not python_ok():
+    sys.exit(f"tools/build.py needs Python {MIN_PYTHON[0]}.{MIN_PYTHON[1]} or newer; this is {sys.version.split()[0]}")
 
 # Toolkit modules are read from source only: Python's bytecode cache lives in a fresh private folder for this process,
 # so a .pyc committed under tools/ (an unchecked-hash one is loaded whatever the source says) can't stand in for a
