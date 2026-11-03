@@ -1,0 +1,50 @@
+{
+ "https://www.mcmahonconstruction.ie": {
+  "bytes": 68108,
+  "final_url": "https://www.mcmahonconstruction.ie",
+  "sha256": "ad32a02ea74d97651bf5cadaea67f11343345447a11da61f242bc6b01b8b95d8",
+  "status": 200
+ },
+ "https://www.mcmahonconstruction.ie/about-us": {
+  "bytes": 69206,
+  "final_url": "https://www.mcmahonconstruction.ie/about-us/",
+  "sha256": "509d941ca5544095aa32845a07d94f0a16081e4bb1752c3d2e5d1f6e4cc4fae7",
+  "status": 200
+ },
+ "https://www.mcmahonconstruction.ie/air-tightness-and-insulation": {
+  "bytes": 73402,
+  "final_url": "https://www.mcmahonconstruction.ie/air-tightness-and-insulation/",
+  "sha256": "af739376924dbffb435bfbec9139a86573d62b5ebbc237d113575c1dd03e6f4f",
+  "status": 200
+ },
+ "https://www.mcmahonconstruction.ie/our-values": {
+  "bytes": 68633,
+  "final_url": "https://www.mcmahonconstruction.ie/our-values/",
+  "sha256": "d97e947e32147e0bb8892e4fc90be70a17fb5f2f704ec6dbb5052bf80ea09e67",
+  "status": 200
+ },
+ "https://www.mcmahonconstruction.ie/photo-gallery": {
+  "bytes": 91089,
+  "final_url": "https://www.mcmahonconstruction.ie/photo-gallery/",
+  "sha256": "5a811da91c0c9d1f976d3fcc2f83850c0aed6d0d2324a6fbdbe0d55b246dafb7",
+  "status": 200
+ },
+ "https://www.mcmahonconstruction.ie/photo-gallery/commercial": {
+  "bytes": 74239,
+  "final_url": "https://www.mcmahonconstruction.ie/photo-gallery/commercial/",
+  "sha256": "9eb93b3e84c727f703e6a0145385d081a88423cb8897e0c7961667497ca6c5ab",
+  "status": 200
+ },
+ "https://www.mcmahonconstruction.ie/portfolio": {
+  "bytes": 69638,
+  "final_url": "https://www.mcmahonconstruction.ie/portfolio/",
+  "sha256": "0c95ef935341b3b910e7eceb63d7a492a7a61ae318dff281a2df6660c3e20905",
+  "status": 200
+ },
+ "https://www.mcmahonconstruction.ie/services": {
+  "bytes": 68626,
+  "final_url": "https://www.mcmahonconstruction.ie/services/",
+  "sha256": "f32665ace683aa4a10523fb0ab2af94d4cd3c34e405eec9449ac07aa506a78ac",
+  "status": 200
+ }
+}

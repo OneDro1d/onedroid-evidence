@@ -1,0 +1,6 @@
+{
+ "version": 1,
+ "imported": true,
+ "gates": [],
+ "note": "Imported run: gated by hand in the notepad session (orchestrator holdout + reading), not by gates.py."
+}

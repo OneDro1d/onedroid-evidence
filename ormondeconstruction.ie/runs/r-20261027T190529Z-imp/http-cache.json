@@ -1,0 +1,284 @@
+{
+ "https://ormondeconstruction.ie": {
+  "bytes": 197868,
+  "final_url": "https://ormondeconstruction.ie",
+  "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/about-company": {
+  "bytes": 135176,
+  "final_url": "https://ormondeconstruction.ie/about-company/",
+  "sha256": "6e87a9abd144a32e8bf1d3b7bf0e2b67b1b540bb68528680af1bed2c2aed4e7b",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/commercial": {
+  "bytes": 140426,
+  "final_url": "https://ormondeconstruction.ie/commercial/",
+  "sha256": "f669e6097b6bbf0b9632bd7bf443f965c8f1a655bb804aedf19ed166943747db",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/contact": {
+  "bytes": 149678,
+  "final_url": "https://ormondeconstruction.ie/contact/",
+  "sha256": "31348fbe6176e468c68a3ba93ae2d7bf4ee5a0d2fc1243c5d60a4855fc63e926",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/design": {
+  "bytes": 137479,
+  "final_url": "https://ormondeconstruction.ie/design/",
+  "sha256": "49d46afb01127fb56819095c5b1765a4092fd1710550d52646d10ccd465ef179",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/education": {
+  "bytes": 132550,
+  "final_url": "https://ormondeconstruction.ie/education/",
+  "sha256": "43d6d4ad8e53601fc535577a7fcd4152fa95e45c6bae97741836d715c1d3bc2a",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/gowran-park-handover": {
+  "bytes": 135850,
+  "final_url": "https://ormondeconstruction.ie/gowran-park-handover/",
+  "sha256": "5f1ffd1db9683056b882db9fae742fc30b24cc59c010e792c14db7ef59af13ba",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/green-light-for-large-new-primary-care-centre": {
+  "bytes": 138028,
+  "final_url": "https://ormondeconstruction.ie/green-light-for-large-new-primary-care-centre/",
+  "sha256": "d6f2d4a8dc7dc4f3aa1bf19baa8e7213a86f154000992a33797b1be5cf3aefa3",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/healthandsafety": {
+  "bytes": 132177,
+  "final_url": "https://ormondeconstruction.ie/healthandsafety/",
+  "sha256": "8eb8e2c051ce402040b56d278ca57ae5f03711df7a55db455cef402bdb301338",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/healthcare": {
+  "bytes": 134439,
+  "final_url": "https://ormondeconstruction.ie/healthcare/",
+  "sha256": "fabef18138ef25a2f612d7db71e22c22370d06a1a94736bce91a996d76b8fc3c",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/history": {
+  "status": "error:TimeoutError"
+ },
+ "https://ormondeconstruction.ie/home": {
+  "bytes": 201060,
+  "final_url": "https://ormondeconstruction.ie/home/",
+  "sha256": "490ef627d1ec77aa5380e4b7043c25483c70790a750ce168bf7d06a24e917df7",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/industrial": {
+  "bytes": 136026,
+  "final_url": "https://ormondeconstruction.ie/industrial/",
+  "sha256": "6c621e9236aca12f39ea8a3afe679dd6a5c3d1856ee0e79fc54633baa638fabb",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/international-womens-day": {
+  "bytes": 133818,
+  "final_url": "https://ormondeconstruction.ie/international-womens-day/",
+  "sha256": "82584087de36dc449be9672e6bf59e899bf5940b481f8f76edf585cff126ff89",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/john": {
+  "status": "error:TimeoutError"
+ },
+ "https://ormondeconstruction.ie/lisa-oshea-leading-the-way": {
+  "bytes": 135999,
+  "final_url": "https://ormondeconstruction.ie/lisa-oshea-leading-the-way/",
+  "sha256": "9966423c544a4d88b096f77cea9cb72ef27b1da995dcf82914965199683d035d",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/new-social-and-affordable-housing-scheme-in-kilkenny": {
+  "bytes": 140867,
+  "final_url": "https://ormondeconstruction.ie/new-social-and-affordable-housing-scheme-in-kilkenny/",
+  "sha256": "51dcbf0cee932acc347955ecda16d76b03022154bb707a8c91353b6e4caaa4d8",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/paddy": {
+  "bytes": 127733,
+  "final_url": "https://ormondeconstruction.ie/paddy/",
+  "sha256": "28d5debc8d42ccf7a405d6cb89401cdf2007e59db45dea47b9dce49d95ef00d6",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-adamstown": {
+  "bytes": 140989,
+  "final_url": "https://ormondeconstruction.ie/project-adamstown/",
+  "sha256": "3cdf423da912c92ae82f480cfb95bc644b6ee87ab3d1b5357dbfa19e7dd5ac6f",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-arus-brugha": {
+  "bytes": 143076,
+  "final_url": "https://ormondeconstruction.ie/project-arus-brugha/",
+  "sha256": "7706b0f7c23722335ad793732fd493b93cd12244a3b95229e35185acf69a770d",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-ballykelly-2": {
+  "bytes": 142511,
+  "final_url": "https://ormondeconstruction.ie/project-ballykelly-2/",
+  "sha256": "ae09b06f56df2578a2957a8852cf83248c3b5fadec19aa656c7ac3e81a4d375c",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-bergins": {
+  "bytes": 141270,
+  "final_url": "https://ormondeconstruction.ie/project-bergins/",
+  "sha256": "d0e2c26e5c3ea05ee05e4eacc7bcc843b2850506acefa31f4ad888a5f8b05a52",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-callan-primary-care": {
+  "bytes": 142186,
+  "final_url": "https://ormondeconstruction.ie/project-callan-primary-care/",
+  "sha256": "c4ea3a70fbb9ba74d659645331f938a2a37409c2d8d2994d35beb74a24f89215",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-castle-oaks": {
+  "bytes": 141181,
+  "final_url": "https://ormondeconstruction.ie/project-castle-oaks/",
+  "sha256": "d831b8f91678b10b749fd59fbacffc853906f0367b872daa54f17af3c594121a",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-college-park": {
+  "bytes": 142734,
+  "final_url": "https://ormondeconstruction.ie/project-college-park/",
+  "sha256": "2eaa8b8ac4624465f46fd700d87a9e042b2e17220c92534b3a590c445a6ff58c",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-crokers": {
+  "bytes": 141878,
+  "final_url": "https://ormondeconstruction.ie/project-crokers/",
+  "sha256": "38b511d82ff6e10711d49c203c763a4d384b2fcc817bb69d97baeb8935560abf",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-droughill": {
+  "bytes": 142535,
+  "final_url": "https://ormondeconstruction.ie/project-droughill/",
+  "sha256": "59fdcc9c82a6cd252e977cd8796cbfcb70b9f8cd247a34befa941ce7df9631b7",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-gowran-park": {
+  "bytes": 140330,
+  "final_url": "https://ormondeconstruction.ie/project-gowran-park/",
+  "sha256": "7425ed85fad27507e8a39aa9ad17095aac053ae4d32abe94509919b1a1e8282d",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-kilkenny": {
+  "bytes": 143231,
+  "final_url": "https://ormondeconstruction.ie/project-kilkenny/",
+  "sha256": "e90f6f317e18e4c4eb649575486025af2959facbe18078540a33b054c336a22e",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-market-square": {
+  "bytes": 142219,
+  "final_url": "https://ormondeconstruction.ie/project-market-square/",
+  "sha256": "d7e7c44321a260aa635a58cd0f70316e022226881a3d7eca243f7f925c1286bb",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-meubles": {
+  "bytes": 141679,
+  "final_url": "https://ormondeconstruction.ie/project-meubles/",
+  "sha256": "d52c9c7225b3db1a94b644c00ac9a5a3b026d55c185841dcc29bbcd5179b61ac",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-nowlan-park": {
+  "bytes": 143776,
+  "final_url": "https://ormondeconstruction.ie/project-nowlan-park/",
+  "sha256": "4041de639b658beb326085d4985a3256eac71a2135d391766db5317b36ef99de",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-powerscourt-distillery": {
+  "bytes": 143036,
+  "final_url": "https://ormondeconstruction.ie/project-powerscourt-distillery/",
+  "sha256": "b1e8ffa48623d5d1201a26e4e8736b7d364b1eca5e9b8c0de90e2720a4875d54",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-prl": {
+  "bytes": 143405,
+  "final_url": "https://ormondeconstruction.ie/project-prl/",
+  "sha256": "f850b4955e9e70e7537c406e47319d6c2b586440011f46fb31dc8b7d8aeb6e48",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-st-gerards": {
+  "bytes": 141836,
+  "final_url": "https://ormondeconstruction.ie/project-st-gerards/",
+  "sha256": "9a485790e3c6961d8cc1a5b7062a923aabf40cfa51aa31669e3d4b338403bb27",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-st-teresians": {
+  "bytes": 141377,
+  "final_url": "https://ormondeconstruction.ie/project-st-teresians/",
+  "sha256": "e935a3117df2efd3e0b052710f04b0f14b39c7290f43896c81c6fb5f5979f75b",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-taxback": {
+  "bytes": 144624,
+  "final_url": "https://ormondeconstruction.ie/project-taxback/",
+  "sha256": "03e0dacb0535e91bd72ac67a3a9ae82604a00b896fcfbf29d87e0d509cf3fe2c",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-thomastown-primary-care": {
+  "bytes": 144894,
+  "final_url": "https://ormondeconstruction.ie/project-thomastown-primary-care/",
+  "sha256": "f4f93e274188d60e6a7a0967795636e2f6e0e72bcd17a1935d6b05efea2ebda2",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/project-walken-street": {
+  "bytes": 143696,
+  "final_url": "https://ormondeconstruction.ie/project-walken-street/",
+  "sha256": "4385f3a38128fa3fe5c8c62ac6902d7cd4c69d9dff4a94e8b4b973f4a19d4c1d",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/projects": {
+  "bytes": 163596,
+  "final_url": "https://ormondeconstruction.ie/projects/",
+  "sha256": "a84f1a1defee6bc12a94a5c1e483c07c7b150601c9136286239b307b9ad6c1ae",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/quality-in-quantity": {
+  "bytes": 143259,
+  "final_url": "https://ormondeconstruction.ie/quality-in-quantity/",
+  "sha256": "325b7f6a24fecd92057b358ef3a0862a8c46f95bbbf444ee0eeae9ec1e73ae2f",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/residential": {
+  "bytes": 139969,
+  "final_url": "https://ormondeconstruction.ie/residential/",
+  "sha256": "9de6ebf87e1809b02f21637d4dd6d3131fe14b8d4881291220233590b6cea1d3",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/richie": {
+  "bytes": 128209,
+  "final_url": "https://ormondeconstruction.ie/richie/",
+  "sha256": "9b106b66fe314a2302aadc172e7daeb122b9d4ec2cafc7a51ca4713dcb151478",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/robots.txt": {
+  "bytes": 180,
+  "final_url": "https://ormondeconstruction.ie/robots.txt",
+  "sha256": "0b4e7573951185bd2029913be1b21336c788d9fa0527e2a3f527c309e03a9814",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/sustainability": {
+  "bytes": 132476,
+  "final_url": "https://ormondeconstruction.ie/sustainability/",
+  "sha256": "18bfcb6d8805081c8d0cd5cfa6340abc58af465fb48cfa36165db6faafd71177",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/team": {
+  "bytes": 132788,
+  "final_url": "https://ormondeconstruction.ie/team/",
+  "sha256": "ade2f4fadc223b696f94970eb67b4ad3c3e9cb56d0ce3c6ca5f1758842c91906",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/team-2": {
+  "bytes": 133837,
+  "final_url": "https://ormondeconstruction.ie/team-2/",
+  "sha256": "3ac1572d3843748346a47fc4f58d5dd55187c31ed89c44eae05e7ddf0b7c0291",
+  "status": 200
+ },
+ "https://ormondeconstruction.ie/upcoming-projects": {
+  "bytes": 127656,
+  "final_url": "https://ormondeconstruction.ie/upcoming-projects/",
+  "sha256": "541ee3cf21ccabb085043852f12c36d8dee0e71d24274505968551a0a857c66b",
+  "status": 200
+ }
+}
