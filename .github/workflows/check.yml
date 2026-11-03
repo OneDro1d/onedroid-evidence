@@ -1,7 +1,7 @@
-# The evidence site's checks (argus-claims docs/dark-factory/02-sa-service-map §5.3). Advisory: a private repo on the
-# free plan can't require it, so a red check is the merger's signal. Actions minutes are paid, so it runs only on pull
-# requests into main that are ready for review. Every .md other than README.md is content here (index.md, changelog.md,
-# a run's claims.md), so only README.md and docs/ are skipped.
+# The evidence site's checks (argus-claims docs/dark-factory/02-sa-service-map §5.3). Advisory until a ruleset on main
+# requires it (the repo is public since 2 Nov, where that is free), so for now a red check is the merger's signal. It
+# runs only on pull requests into main that are ready for review. Every .md other than README.md is content here
+# (index.md, changelog.md, a run's claims.md), so only README.md and docs/ are skipped.
 name: check
 
 on:
