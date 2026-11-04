@@ -1,16 +1,12 @@
-# The evidence site's checks (argus-claims docs/dark-factory/02-sa-service-map §5.3). Advisory until a ruleset on main
-# requires it (the repo is public since 2 Nov, where that is free), so for now a red check is the merger's signal. It
-# runs only on pull requests into main that are ready for review. Every .md other than README.md is content here
-# (index.md, changelog.md, a run's claims.md), so only README.md and docs/ are skipped.
+# The evidence site's checks (argus-claims docs/dark-factory/02-sa-service-map §5.3). The ruleset on main requires this
+# check, so it runs on every pull request into main that is ready for review, with no path filter: a skipped run would
+# never report and would leave its pull request unmergeable. Minutes are free on this public repo.
 name: check
 
 on:
   pull_request:
     branches: [main]
     types: [opened, synchronize, reopened, ready_for_review]
-    paths-ignore:
-      - 'README.md'
-      - 'docs/**'
 
 permissions:
   contents: read
@@ -25,7 +21,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 0  # I-5 compares with the base commit
       - name: Tests
