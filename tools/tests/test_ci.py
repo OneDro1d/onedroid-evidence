@@ -1,6 +1,6 @@
 """The CI workflow (argus-claims 02-sa-service-map §5.3): only ready pull requests into main, no push or draft runs,
-README/docs-only changes skipped but content .md files not, a time limit, superseded runs cancelled, read-only, the
-branch name never pasted into a script. Stdlib only: the file is read as text."""
+every change checked (the ruleset requires `check`, so a skipped run would block a merge), a time limit, superseded runs
+cancelled, read-only, checkout on Node 24, the branch name never pasted into a script. Stdlib only: read as text."""
 import re
 import unittest
 
@@ -25,9 +25,13 @@ class Workflow(unittest.TestCase):
         self.assertRegex(on, r"types:\s*\[opened, synchronize, reopened, ready_for_review\]")
         self.assertIn("github.event.pull_request.draft == false", self.text)
 
-    def test_only_readme_and_docs_are_skipped(self):
-        ignored = re.findall(r"^\s+- '([^']+)'$", self.text.split("paths-ignore:", 1)[1].split("\n\n", 1)[0], re.M)
-        self.assertEqual(ignored, ["README.md", "docs/**"])
+    def test_every_change_is_checked(self):  # a required check that never reports leaves its PR unmergeable
+        on = self.text.split("\non:", 1)[1].split("\njobs:", 1)[0]
+        self.assertNotRegex(on, r"\bpaths(-ignore)?:")
+        self.assertNotRegex(on, r"\bbranches-ignore:")
+
+    def test_checkout_runs_on_node_24(self):  # v4 runs on Node 20, which GitHub has deprecated
+        self.assertEqual(re.findall(r"uses: actions/checkout@(\S+)", self.text), ["v5"])
 
     def test_limits_and_permissions(self):
         self.assertRegex(self.text, r"timeout-minutes: 10\b")
