@@ -1,0 +1,11 @@
+{
+  "C-001": {"verdict": "CONTRADICTED", "note": "Reconcilable reading: the history timeline's 2002 entry may mark first trading or incorporation rather than the founding year; the site does not say which. A one-year gap, on the company's own pages."},
+  "C-002": {"verdict": "CONTRADICTED", "note": "Same disagreement as C-001: About and the Managing Director's page say 2001, the history timeline heads the company entry 2002."},
+  "C-004": {"verdict": "EVIDENCED", "note": "This row records the disagreement itself; the history page shows it (first timeline entry headed 2002, three other pages say 2001). The contradiction is scored on C-001 and C-002."},
+  "C-026": {"verdict": "EVIDENCED", "note": "The reviewer corrected the lister: each team page lists three roles, not four; the two live team pages differ on one title (Commercial Director on /team/, Commercial Manager on /team-2/), scored on C-022."},
+  "C-046": {"verdict": "NO EVIDENCE PUBLISHED", "note": "The project page says 'over 88 housing units' and the residential sector card for the same scheme says 'over 70'. Both are lower bounds, so they can be read to agree; one figure would be better. No unit count beyond the statements is published."},
+  "C-047": {"verdict": "NO EVIDENCE PUBLISHED", "note": "The 'over 70 housing units' card is the Crokers Hill scheme; see C-046."},
+  "C-060": {"verdict": "NO EVIDENCE PUBLISHED", "note": "The upcoming-projects list (modified 2025-09-19) still names Thomastown Housing while the company's news item of 8 October 2024 says construction there has started. Read as a stale list rather than a contradiction; the page does not say."},
+  "C-073": {"verdict": "NO EVIDENCE PUBLISHED", "note": "The reviewer corrected the reading: the company's post says a staff member was on the panel at the previous year's event, and announces the 7 March 2024 event; the claim's date was the lister's."},
+  "C-074": {"verdict": "NO EVIDENCE PUBLISHED", "note": "The podcast post is dated 8 October 2024; the July 2024 item is a profile article. The career facts are consistent across both; the date in the claim was the lister's."}
+}

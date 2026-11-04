@@ -1,0 +1,16 @@
+{
+ "run_id": "r-20261027T190540Z-imp",
+ "publisher": "McMahon Construction",
+ "domain": "mcmahonconstruction.ie",
+ "imported": true,
+ "imported_from": "mcmahonconstruction-2026-10-27",
+ "importer": "import_run/1",
+ "fetched_at": "2026-10-27T19:05:40Z",
+ "hosts": [
+  "mcmahonconstruction.ie",
+  "www.mcmahonconstruction.ie"
+ ],
+ "repo_commit": "",
+ "previous_run": null,
+ "note": null
+}

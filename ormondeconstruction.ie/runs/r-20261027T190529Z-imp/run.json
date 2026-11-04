@@ -1,0 +1,16 @@
+{
+ "run_id": "r-20261027T190529Z-imp",
+ "publisher": "Ormonde Construction Ltd",
+ "domain": "ormondeconstruction.ie",
+ "imported": true,
+ "imported_from": "ormondeconstruction-2026-10-27",
+ "importer": "import_run/1",
+ "fetched_at": "2026-10-27T19:05:29Z",
+ "hosts": [
+  "ormondeconstruction.ie",
+  "www.ormondeconstruction.ie"
+ ],
+ "repo_commit": "",
+ "previous_run": null,
+ "note": null
+}

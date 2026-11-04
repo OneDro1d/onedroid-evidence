@@ -1,0 +1,2081 @@
+{
+ "schema": "argus-claims/evidence-page@1",
+ "domain": "ormondeconstruction.ie",
+ "publisher": "Ormonde Construction Ltd",
+ "run_id": "r-20261027T190529Z-imp",
+ "checked": "2026-10-27",
+ "counts": {
+  "total": 75,
+  "evidenced": 5,
+  "contradicted": 3,
+  "low_confidence": 2,
+  "no_evidence_published": 67,
+  "evidence_private": 0
+ },
+ "claims": [
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-001",
+   "text": "Ormonde Construction Ltd has been in operation since 2001.",
+   "source": "https://ormondeconstruction.ie/",
+   "locator": "Welcome To Ormonde Construction",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+   "verdict": "contradicted",
+   "ruled": true,
+   "refs": [
+    {
+     "pass": "disprove",
+     "ref": "text/history.txt#L25-L27"
+    },
+    {
+     "pass": "disprove",
+     "ref": "text/home.txt#L58"
+    },
+    {
+     "pass": "disprove",
+     "ref": "text/index.txt#L49"
+    },
+    {
+     "pass": "disprove",
+     "ref": "https://ormondeconstruction.ie/history/#200 (live, '2002' at line 1055)"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/home/",
+     "locator": "Welcome To Ormonde Construction / Crokers Hill slide",
+     "sha256": "490ef627d1ec77aa5380e4b7043c25483c70790a750ce168bf7d06a24e917df7"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-002",
+   "text": "Ormonde Construction was established in 2001 (based in Kilkenny, in the South East).",
+   "source": "https://ormondeconstruction.ie/about-company/",
+   "locator": "Public and Private Sector",
+   "sha256": "6e87a9abd144a32e8bf1d3b7bf0e2b67b1b540bb68528680af1bed2c2aed4e7b",
+   "verdict": "contradicted",
+   "ruled": true,
+   "refs": [
+    {
+     "pass": "disprove",
+     "ref": "text/about-company.txt#L26"
+    },
+    {
+     "pass": "disprove",
+     "ref": "text/john.txt#L26"
+    },
+    {
+     "pass": "disprove",
+     "ref": "text/history.txt#L25-L27"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/john/",
+     "locator": "Managing Director bio page: set up Ormonde Construction Ltd in 2001",
+     "sha256": "6c9108237d5975fa3764420f5ece9effd93c5007f219010c32a37afb653695e2"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-003",
+   "text": "Ormonde Construction Ltd ... has been in operation for over 21 years.",
+   "source": "https://ormondeconstruction.ie/history/",
+   "locator": "2002 timeline entry (og:description)",
+   "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/history.txt#L27"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/history.html#L16 (og:description)"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-004",
+   "text": "History timeline dates the company entry at 2002 ('2002 Ormonde Construction Ltd'), while other pages say 2001.",
+   "source": "https://ormondeconstruction.ie/history/",
+   "locator": "timeline first entry",
+   "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54",
+   "verdict": "evidenced",
+   "ruled": true,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/history.txt#L25-L27"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/history.html#L1061 (ue-title/ue-description of first timeline entry)"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-005",
+   "text": "Ormonde Construction Ltd is based in the South East of Ireland.",
+   "source": "https://ormondeconstruction.ie/",
+   "locator": "Welcome To Ormonde Construction",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L58"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/history.txt#L27"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/history/",
+     "locator": "2002 entry",
+     "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-006",
+   "text": "Registered/office address: Unit 20, Danville Business Park, Kilkenny, R95 K282; tel +353 (0) 56 778 6940; info@ormondeconstruction.ie.",
+   "source": "https://ormondeconstruction.ie/",
+   "locator": "footer Contact Details",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L88-L92"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/contact.txt#L25-L31"
+    },
+    {
+     "pass": "prove",
+     "ref": "https://ormondeconstruction.ie/contact/#HTTP 200 (checks-for-prompt.md)"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/contact/",
+     "locator": "Our Location",
+     "sha256": "8d576ffcb449fa2a30985873bc5ca295f818a4ccf5340054a53f18397c6df320"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-007",
+   "text": "The company has a LinkedIn page (Ormonde Construction Limited).",
+   "source": "https://ormondeconstruction.ie/",
+   "locator": "JSON-LD Organization sameAs / footer link",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "sources/index.html#L23 (JSON-LD sameAs linkedin.com/company/ormonde-construction-limited)"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/index.html#L2374 (footer link)"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-008",
+   "text": "Tagline: 'Built on Experience'.",
+   "source": "https://ormondeconstruction.ie/",
+   "locator": "JSON-LD WebSite description / hero heading",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+   "verdict": "evidenced",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "sources/index.html#L23 (JSON-LD WebSite description 'Built on Experience')"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/index.html#L1291 (hero h3 'Built on Experience')"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L46"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-009",
+   "text": "The company has completed projects in both the public and private sector.",
+   "source": "https://ormondeconstruction.ie/about-company/",
+   "locator": "Public and Private Sector",
+   "sha256": "6e87a9abd144a32e8bf1d3b7bf0e2b67b1b540bb68528680af1bed2c2aed4e7b",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/about-company.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/history.txt#L31-L33"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/history/",
+     "locator": "2020 entry: accumulated extensive experience in both the public and private sector",
+     "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-010",
+   "text": "Sectors served: Commercial/retail, Industrial, Primary/Nursing care, Educational and Residential, including Design and Build.",
+   "source": "https://ormondeconstruction.ie/about-company/",
+   "locator": "Public and Private Sector",
+   "sha256": "6e87a9abd144a32e8bf1d3b7bf0e2b67b1b540bb68528680af1bed2c2aed4e7b",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/about-company.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L75-L80"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/",
+     "locator": "sector list: Commercial/Retail/Fitout, Healthcare, Residential, Industrial, Design and Build, Education",
+     "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-011",
+   "text": "Sectors also include food and beverage, healthcare, sports and leisure.",
+   "source": "https://ormondeconstruction.ie/quality-in-quantity/",
+   "locator": "Moving up paragraph",
+   "sha256": "325b7f6a24fecd92057b358ef3a0862a8c46f95bbbf444ee0eeae9ec1e73ae2f",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/quality-in-quantity.txt#L32"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-012",
+   "text": "The diversity of projects and client base has been the key in the success of the company.",
+   "source": "https://ormondeconstruction.ie/",
+   "locator": "Welcome",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L58"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/history.txt#L27"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/history/",
+     "locator": "2002 entry",
+     "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-013",
+   "text": "Ormonde achieves client objectives within their set financial budgets and timelines.",
+   "source": "https://ormondeconstruction.ie/",
+   "locator": "Built on Experience / Kilkenny Primary Care slide",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L44"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L48"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/history.txt#L36"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/history/",
+     "locator": "2006 entry",
+     "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-014",
+   "text": "The company has many repeat clients over the years.",
+   "source": "https://ormondeconstruction.ie/history/",
+   "locator": "2006 entry: 'our many repeat clients over the years'",
+   "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/history.txt#L36"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-015",
+   "text": "In 2014 the company broadened its client base and type of projects to deliver across new sectors.",
+   "source": "https://ormondeconstruction.ie/history/",
+   "locator": "2014 entry",
+   "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/history.txt#L37-L39"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-016",
+   "text": "The company 'successfully completed projects for the following clients among others' (client list, 2020 entry; names not present in extracted text).",
+   "source": "https://ormondeconstruction.ie/history/",
+   "locator": "2020 entry",
+   "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/history.txt#L31-L33"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/history.html#L1235 (2020 entry; only images on page are logos and a footer badge, no client list)"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-017",
+   "text": "Company uses local suppliers and sub-contractors and employs locally as much as possible.",
+   "source": "https://ormondeconstruction.ie/",
+   "locator": "More About Us",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L60"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-018",
+   "text": "Localising the supply chain reduces shipping/storage, emissions and energy usage and supply chain costs.",
+   "source": "https://ormondeconstruction.ie/",
+   "locator": "More About Us",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L60"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-019",
+   "text": "The company has successfully completed over 200 projects (apartment blocks, housing schemes, nursing homes, schools, office blocks, large industrial and warehousing).",
+   "source": "https://ormondeconstruction.ie/john/",
+   "locator": "Managing Director bio page",
+   "sha256": "6c9108237d5975fa3764420f5ece9effd93c5007f219010c32a37afb653695e2",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/john.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "https://ormondeconstruction.ie/john/#HTTP timeout in check run; saved copy in sources/john.html"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-020",
+   "text": "Managing Director has over 30 years' experience in the construction industry and previously worked for two of Ireland's largest construction companies.",
+   "source": "https://ormondeconstruction.ie/john/",
+   "locator": "Managing Director bio page",
+   "sha256": "6c9108237d5975fa3764420f5ece9effd93c5007f219010c32a37afb653695e2",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/john.txt#L26"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-021",
+   "text": "The Managing Director oversees every aspect of projects including procurement, hiring/managing project team and ensuring compliance with building and safety regulations.",
+   "source": "https://ormondeconstruction.ie/john/",
+   "locator": "Managing Director bio page",
+   "sha256": "6c9108237d5975fa3764420f5ece9effd93c5007f219010c32a37afb653695e2",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/john.txt#L26"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-022",
+   "text": "Commercial Director has over 30 years' experience as a Quantity Surveyor and joined Ormonde in 2015.",
+   "source": "https://ormondeconstruction.ie/paddy/",
+   "locator": "Commercial Director bio page",
+   "sha256": "28d5debc8d42ccf7a405d6cb89401cdf2007e59db45dea47b9dce49d95ef00d6",
+   "verdict": "contradicted",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "disprove",
+     "ref": "text/paddy.txt#L26 ('Commercial Director ... joining Ormonde in 2015')"
+    },
+    {
+     "pass": "disprove",
+     "ref": "text/team.txt#L25-L26 ('Commercial Director')"
+    },
+    {
+     "pass": "disprove",
+     "ref": "text/team-2.txt#L25-L26 ('Commercial Manager')"
+    },
+    {
+     "pass": "disprove",
+     "ref": "https://ormondeconstruction.ie/team-2/#200 (live line 16 'Commercial Manager', page dateModified 2024-09-20)"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-023",
+   "text": "The Commercial Director manages the Estimating Department in delivery of tender submissions and has negotiated several significant residential, commercial and primary care centre buildings.",
+   "source": "https://ormondeconstruction.ie/paddy/",
+   "locator": "bio",
+   "sha256": "28d5debc8d42ccf7a405d6cb89401cdf2007e59db45dea47b9dce49d95ef00d6",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/paddy.txt#L28-L29"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-024",
+   "text": "Contracts Director has over 20 years' experience, is degree qualified in Civil and Transportation Engineering, joined in 2005 and was appointed Contracts Director in 2017.",
+   "source": "https://ormondeconstruction.ie/richie/",
+   "locator": "Contracts Director bio page",
+   "sha256": "9b106b66fe314a2302aadc172e7daeb122b9d4ec2cafc7a51ca4713dcb151478",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/richie.txt#L26-L27"
+    },
+    {
+     "pass": "prove",
+     "ref": "https://ormondeconstruction.ie/richie/#HTTP 200 (checks-for-prompt.md)"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-025",
+   "text": "Contracts Director is responsible for all site management teams and project delivery compliant with Building and HSEQ requirements.",
+   "source": "https://ormondeconstruction.ie/richie/",
+   "locator": "bio",
+   "sha256": "9b106b66fe314a2302aadc172e7daeb122b9d4ec2cafc7a51ca4713dcb151478",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/richie.txt#L28"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-026",
+   "text": "The team page lists a Managing Director, Contracts Director, Commercial Director and Commercial Manager.",
+   "source": "https://ormondeconstruction.ie/team-2/",
+   "locator": "role titles",
+   "sha256": "3ac1572d3843748346a47fc4f58d5dd55187c31ed89c44eae05e7ddf0b7c0291",
+   "verdict": "evidenced",
+   "ruled": true,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/team-2.txt#L25-L33"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/team.txt#L25-L33"
+    },
+    {
+     "pass": "prove",
+     "ref": "https://ormondeconstruction.ie/team-2/#HTTP 200 (checks-for-prompt.md)"
+    },
+    {
+     "pass": "prove",
+     "ref": "https://ormondeconstruction.ie/team/#HTTP 200 (checks-for-prompt.md)"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/team/",
+     "locator": "Commercial Director",
+     "sha256": "ade2f4fadc223b696f94970eb67b4ad3c3e9cb56d0ce3c6ca5f1758842c91906"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-027",
+   "text": "A quantity surveyor's duties include ensuring compliance with the Building Control Amendment Regulations (BCAR).",
+   "source": "https://ormondeconstruction.ie/quality-in-quantity/",
+   "locator": "Responsibilities",
+   "sha256": "325b7f6a24fecd92057b358ef3a0862a8c46f95bbbf444ee0eeae9ec1e73ae2f",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/quality-in-quantity.txt#L34"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-028",
+   "text": "Ormonde manages every aspect of commercial projects from pre-construction through to completion.",
+   "source": "https://ormondeconstruction.ie/commercial/",
+   "locator": "Commercial / Retail",
+   "sha256": "f669e6097b6bbf0b9632bd7bf443f965c8f1a655bb804aedf19ed166943747db",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/commercial.txt#L26"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-029",
+   "text": "Ormonde delivers fitout projects and operates 'at scale'.",
+   "source": "https://ormondeconstruction.ie/commercial/",
+   "locator": "Fitout",
+   "sha256": "f669e6097b6bbf0b9632bd7bf443f965c8f1a655bb804aedf19ed166943747db",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/commercial.txt#L28-L29"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-030",
+   "text": "Design-build delivery: the company finds it often translates to shorter schedules and lower project costs.",
+   "source": "https://ormondeconstruction.ie/design/",
+   "locator": "Design and Build",
+   "sha256": "49d46afb01127fb56819095c5b1765a4092fd1710550d52646d10ccd465ef179",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/design.txt#L26"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-031",
+   "text": "Ormonde provides design and build services.",
+   "source": "https://ormondeconstruction.ie/design/",
+   "locator": "Design and Build",
+   "sha256": "49d46afb01127fb56819095c5b1765a4092fd1710550d52646d10ccd465ef179",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/design.txt#L25-L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L79"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/",
+     "locator": "sector list",
+     "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-032",
+   "text": "Ormonde provides healthcare/primary care facilities with 'highly qualified teams'; healthcare is a key market.",
+   "source": "https://ormondeconstruction.ie/healthcare/",
+   "locator": "Healthcare",
+   "sha256": "fabef18138ef25a2f612d7db71e22c22370d06a1a94736bce91a996d76b8fc3c",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/healthcare.txt#L26-L27"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-033",
+   "text": "Ormonde provides education facilities, including work in live school environments.",
+   "source": "https://ormondeconstruction.ie/education/",
+   "locator": "Education",
+   "sha256": "43d6d4ad8e53601fc535577a7fcd4152fa95e45c6bae97741836d715c1d3bc2a",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/education.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-st-gerards.txt#L30-L33"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-st-teresians.txt#L34"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/project-st-gerards/",
+     "locator": "live school environment",
+     "sha256": "9a485790e3c6961d8cc1a5b7062a923aabf40cfa51aa31669e3d4b338403bb27"
+    },
+    {
+     "source": "https://ormondeconstruction.ie/project-st-teresians/",
+     "locator": "live school environment",
+     "sha256": "e935a3117df2efd3e0b052710f04b0f14b39c7290f43896c81c6fb5f5979f75b"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-034",
+   "text": "Ormonde provides industrial project services including programme management and cost analysis.",
+   "source": "https://ormondeconstruction.ie/industrial/",
+   "locator": "Industrial",
+   "sha256": "6c621e9236aca12f39ea8a3afe679dd6a5c3d1856ee0e79fc54633baa638fabb",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/industrial.txt#L26"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-035",
+   "text": "Ormonde provides residential services: project managing large social housing programmes, scheme design and placemaking; development team initiating new schemes.",
+   "source": "https://ormondeconstruction.ie/residential/",
+   "locator": "Residential",
+   "sha256": "9de6ebf87e1809b02f21637d4dd6d3131fe14b8d4881291220233590b6cea1d3",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/residential.txt#L26"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-036",
+   "text": "Residential clients can be assured the finished result is delivered on time and budget and to the highest quality (reliable accommodation models).",
+   "source": "https://ormondeconstruction.ie/residential/",
+   "locator": "second paragraph",
+   "sha256": "9de6ebf87e1809b02f21637d4dd6d3131fe14b8d4881291220233590b6cea1d3",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/residential.txt#L27"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-037",
+   "text": "Health and safety: tool box talks, safety inductions, training and daily whiteboard meetings are used on projects.",
+   "source": "https://ormondeconstruction.ie/healthandsafety/",
+   "locator": "Health and Safety",
+   "sha256": "8eb8e2c051ce402040b56d278ca57ae5f03711df7a55db455cef402bdb301338",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/healthandsafety.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/about-company.txt#L32-L33"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/about-company/",
+     "locator": "Health & Safety",
+     "sha256": "6e87a9abd144a32e8bf1d3b7bf0e2b67b1b540bb68528680af1bed2c2aed4e7b"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-038",
+   "text": "All sites are regularly inspected by the company's H&S team for compliance with company procedures and legislative requirements.",
+   "source": "https://ormondeconstruction.ie/healthandsafety/",
+   "locator": "Health and Safety",
+   "sha256": "8eb8e2c051ce402040b56d278ca57ae5f03711df7a55db455cef402bdb301338",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/healthandsafety.txt#L26"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-039",
+   "text": "Health & safety is at the heart of everything the company does; safety standards are constantly evaluated.",
+   "source": "https://ormondeconstruction.ie/about-company/",
+   "locator": "Health & Safety",
+   "sha256": "6e87a9abd144a32e8bf1d3b7bf0e2b67b1b540bb68528680af1bed2c2aed4e7b",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/about-company.txt#L32-L33"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-040",
+   "text": "Committed to providing the necessary resources to eliminate injury and incidents on all projects.",
+   "source": "https://ormondeconstruction.ie/healthandsafety/",
+   "locator": "Health and Safety",
+   "sha256": "8eb8e2c051ce402040b56d278ca57ae5f03711df7a55db455cef402bdb301338",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/healthandsafety.txt#L26"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-041",
+   "text": "Core objective: every individual working on Ormonde sites returns home safely and leaves with a sense of wellbeing.",
+   "source": "https://ormondeconstruction.ie/project-thomastown-primary-care/",
+   "locator": "core values sentence",
+   "sha256": "f4f93e274188d60e6a7a0967795636e2f6e0e72bcd17a1935d6b05efea2ebda2",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-thomastown-primary-care.txt#L27"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-042",
+   "text": "Quality objectives and control processes are defined and implemented; each project has a risk management plan (identify, prioritise, contingency, revisit and revise).",
+   "source": "https://ormondeconstruction.ie/about-company/",
+   "locator": "True Quality",
+   "sha256": "6e87a9abd144a32e8bf1d3b7bf0e2b67b1b540bb68528680af1bed2c2aed4e7b",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/about-company.txt#L27-L28"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-043",
+   "text": "The company uses the latest software to track changes in a live environment so all parties work on the same consolidated information; CAD is used in design.",
+   "source": "https://ormondeconstruction.ie/about-company/",
+   "locator": "Technology",
+   "sha256": "6e87a9abd144a32e8bf1d3b7bf0e2b67b1b540bb68528680af1bed2c2aed4e7b",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/about-company.txt#L29-L31"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-044",
+   "text": "Sustainability statement commitments: comply fully with legal requirements, assess environmental impacts and seek to reduce pollution, promote environmental and energy awareness through employee training, work with customers on sensitive choices, monitor progress, communicate policy to stakeholders.",
+   "source": "https://ormondeconstruction.ie/sustainability/",
+   "locator": "Sustainability Statement",
+   "sha256": "18bfcb6d8805081c8d0cd5cfa6340abc58af465fb48cfa36165db6faafd71177",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/sustainability.txt#L25-L42"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/sustainability.html#L1089 (Learn More links are href='#')"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-045",
+   "text": "Crokers Hill project used eco-friendly materials (recycled or locally sourced), recycling/reuse of construction debris, and regular inspections and training on health and safety.",
+   "source": "https://ormondeconstruction.ie/project-crokers/",
+   "locator": "body",
+   "sha256": "38b511d82ff6e10711d49c203c763a4d384b2fcc817bb69d97baeb8935560abf",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-crokers.txt#L27-L28"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-046",
+   "text": "Crokers Hill: over 88 housing units.",
+   "source": "https://ormondeconstruction.ie/project-crokers/",
+   "locator": "intro",
+   "sha256": "38b511d82ff6e10711d49c203c763a4d384b2fcc817bb69d97baeb8935560abf",
+   "verdict": "no_evidence_published",
+   "ruled": true,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-crokers.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/projects.txt#L27"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/projects/",
+     "locator": "Crokers Hill card",
+     "sha256": "a84f1a1defee6bc12a94a5c1e483c07c7b150601c9136286239b307b9ad6c1ae"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-047",
+   "text": "A residential project is described as 'over 70 housing units' (listing on residential page; project not named in extracted text).",
+   "source": "https://ormondeconstruction.ie/residential/",
+   "locator": "project card",
+   "sha256": "9de6ebf87e1809b02f21637d4dd6d3131fe14b8d4881291220233590b6cea1d3",
+   "verdict": "no_evidence_published",
+   "ruled": true,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/residential.txt#L30"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-048",
+   "text": "College Park, Callan Road, Kilkenny City: 59 residential units (timber frame, 3 and 4-bed semi-detached and terraced, duplexes, apartments).",
+   "source": "https://ormondeconstruction.ie/project-college-park/",
+   "locator": "intro",
+   "sha256": "2eaa8b8ac4624465f46fd700d87a9e042b2e17220c92534b3a590c445a6ff58c",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-college-park.txt#L26-L27"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/projects.txt#L52"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/projects/",
+     "locator": "College Park card",
+     "sha256": "a84f1a1defee6bc12a94a5c1e483c07c7b150601c9136286239b307b9ad6c1ae"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-049",
+   "text": "Castle Oaks: phased development of 77 mixed-tenure residential homes; Breagagh River site constraints; ESB overhead wires rerouted underground.",
+   "source": "https://ormondeconstruction.ie/project-castle-oaks/",
+   "locator": "intro",
+   "sha256": "d831b8f91678b10b749fd59fbacffc853906f0367b872daa54f17af3c594121a",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-castle-oaks.txt#L26-L28"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-050",
+   "text": "Castle Oaks next phase launching (upcoming).",
+   "source": "https://ormondeconstruction.ie/upcoming-projects/",
+   "locator": "Castle Oaks Housing",
+   "sha256": "541ee3cf21ccabb085043852f12c36d8dee0e71d24274505968551a0a857c66b",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/upcoming-projects.txt#L27"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-051",
+   "text": "Droughill Housing: 26 new residences (18 two-storey terraced and 8 single-storey semi-detached), 90 to 100 square metres each.",
+   "source": "https://ormondeconstruction.ie/project-droughill/",
+   "locator": "intro",
+   "sha256": "59fdcc9c82a6cd252e977cd8796cbfcb70b9f8cd247a34befa941ce7df9631b7",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-droughill.txt#L26-L27"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/design.txt#L29"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/design/",
+     "locator": "Droughill card",
+     "sha256": "49d46afb01127fb56819095c5b1765a4092fd1710550d52646d10ccd465ef179"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-052",
+   "text": "Market Square (Vignoles Gardens): Design and Build contract for 20 elderly houses and apartments incl. renovation of a derelict Protected Structure.",
+   "source": "https://ormondeconstruction.ie/project-market-square/",
+   "locator": "intro",
+   "sha256": "d7e7c44321a260aa635a58cd0f70316e022226881a3d7eca243f7f925c1286bb",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-market-square.txt#L26-L28"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/design.txt#L39"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/design/",
+     "locator": "card",
+     "sha256": "49d46afb01127fb56819095c5b1765a4092fd1710550d52646d10ccd465ef179"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-053",
+   "text": "Walkin Street, Kilkenny City: 27 apartments, community centre, offices, underground car park, 3800m2 floor area, 4-storey over basement.",
+   "source": "https://ormondeconstruction.ie/project-walken-street/",
+   "locator": "intro",
+   "sha256": "4385f3a38128fa3fe5c8c62ac6902d7cd4c69d9dff4a94e8b4b973f4a19d4c1d",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-walken-street.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L62-L63"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/",
+     "locator": "Latest Projects",
+     "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-054",
+   "text": "Walkin Street development is 'award winning' (award not named).",
+   "source": "https://ormondeconstruction.ie/project-walken-street/",
+   "locator": "first sentence",
+   "sha256": "4385f3a38128fa3fe5c8c62ac6902d7cd4c69d9dff4a94e8b4b973f4a19d4c1d",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-walken-street.txt#L26"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-055",
+   "text": "Kilkenny Primary Care: three-storey Primary Health Care centre, 5867m2 floor area, NZEB compliant, turnkey with furniture and fittings.",
+   "source": "https://ormondeconstruction.ie/project-kilkenny/",
+   "locator": "intro and Security",
+   "sha256": "e90f6f317e18e4c4eb649575486025af2959facbe18078540a33b054c336a22e",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-kilkenny.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-kilkenny.txt#L30"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-kilkenny.txt#L34"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-056",
+   "text": "Thomastown Primary Care Centre: commissioned by the HSE, 3500 square metres, two-storey, Ladys Well St., Thomastown.",
+   "source": "https://ormondeconstruction.ie/project-thomastown-primary-care/",
+   "locator": "intro",
+   "sha256": "f4f93e274188d60e6a7a0967795636e2f6e0e72bcd17a1935d6b05efea2ebda2",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-thomastown-primary-care.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L68-L69"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/",
+     "locator": "Latest Projects",
+     "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-057",
+   "text": "Callan Primary Care: Primary Care Centre and Neighbour Centre in Westcourt, Callan, with 3,000 sq ft GP surgery, fit-out to HSE standards.",
+   "source": "https://ormondeconstruction.ie/project-callan-primary-care/",
+   "locator": "intro",
+   "sha256": "c4ea3a70fbb9ba74d659645331f938a2a37409c2d8d2994d35beb74a24f89215",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-callan-primary-care.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-callan-primary-care.txt#L28"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-058",
+   "text": "Thomastown social and affordable housing: 42 units on a 1.24 hectare site at Abbeyhill, Ladywell Street, for Kilkenny County Council under Housing for All; Ormonde appointed contractor; expected completion early 2026.",
+   "source": "https://ormondeconstruction.ie/new-social-and-affordable-housing-scheme-in-kilkenny/",
+   "locator": "article body",
+   "sha256": "51dcbf0cee932acc347955ecda16d76b03022154bb707a8c91353b6e4caaa4d8",
+   "verdict": "evidenced",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "sources/new-social-and-affordable-housing-scheme-in-kilkenny.html#L1031 (quoted statement attributed to the council's chief executive naming Ormonde)"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/new-social-and-affordable-housing-scheme-in-kilkenny.txt#L25-L33"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/post-sitemap.xml#L50 (lastmod 2024-10-08T21:13:38+00:00)"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-059",
+   "text": "Planning permission granted by Kilkenny County Council for a new primary care centre on Hebron Road, Kilkenny (89 parking spaces); Hebron Road Primary Care Centre and Housing is listed as upcoming.",
+   "source": "https://ormondeconstruction.ie/green-light-for-large-new-primary-care-centre/",
+   "locator": "article body",
+   "sha256": "d6f2d4a8dc7dc4f3aa1bf19baa8e7213a86f154000992a33797b1be5cf3aefa3",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/green-light-for-large-new-primary-care-centre.txt#L27-L28"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/upcoming-projects.txt#L33"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/upcoming-projects/",
+     "locator": "list",
+     "sha256": "541ee3cf21ccabb085043852f12c36d8dee0e71d24274505968551a0a857c66b"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-060",
+   "text": "Upcoming projects: Fethard Primary Care Centre, Thurles Housing, Williamstown Housing, Tullamore Warehouse 12, Thomastown Housing, Hebron Road Primary Care Centre and Housing.",
+   "source": "https://ormondeconstruction.ie/upcoming-projects/",
+   "locator": "list",
+   "sha256": "541ee3cf21ccabb085043852f12c36d8dee0e71d24274505968551a0a857c66b",
+   "verdict": "no_evidence_published",
+   "ruled": true,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/upcoming-projects.txt#L28-L33"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-061",
+   "text": "Adamstown community centre: SDZ project, 15 months from planning submission to handover; built in a seven-month programme within budget; Ormonde managed precast works on a design and build basis.",
+   "source": "https://ormondeconstruction.ie/project-adamstown/",
+   "locator": "Streamline",
+   "sha256": "3cdf423da912c92ae82f480cfb95bc644b6ee87ab3d1b5357dbfa19e7dd5ac6f",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-adamstown.txt#L30"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-062",
+   "text": "Aras Brugha Hostel, Dungarvan: refurbishment, three-storey extension, M&E works; completed March 2019.",
+   "source": "https://ormondeconstruction.ie/project-arus-brugha/",
+   "locator": "intro and Safety",
+   "sha256": "7706b0f7c23722335ad793732fd493b93cd12244a3b95229e35185acf69a770d",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-arus-brugha.txt#L26-L31"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-063",
+   "text": "Bergins: 50,000 ft2 warehouse for Bergin Haulage at Purcellsinch Business Park, Kilkenny; 11m clear height; 8m high retaining walls.",
+   "source": "https://ormondeconstruction.ie/project-bergins/",
+   "locator": "intro",
+   "sha256": "d0e2c26e5c3ea05ee05e4eacc7bcc843b2850506acefa31f4ad888a5f8b05a52",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-bergins.txt#L26-L28"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-064",
+   "text": "Meubles: 100,000 sq ft retail showroom over two floors at Smithland's Retail Park, Kilkenny, built while the park stayed operational.",
+   "source": "https://ormondeconstruction.ie/project-meubles/",
+   "locator": "intro",
+   "sha256": "d52c9c7225b3db1a94b644c00ac9a5a3b026d55c185841dcc29bbcd5179b61ac",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-meubles.txt#L27"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-065",
+   "text": "PRL Logistics Solutions: 30,000 sq ft high-bay warehouse built within a live bonded site.",
+   "source": "https://ormondeconstruction.ie/project-prl/",
+   "locator": "intro",
+   "sha256": "f850b4955e9e70e7537c406e47319d6c2b586440011f46fb31dc8b7d8aeb6e48",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-prl.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-prl.txt#L28"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/industrial.txt#L39"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/industrial/",
+     "locator": "PRL card",
+     "sha256": "6c621e9236aca12f39ea8a3afe679dd6a5c3d1856ee0e79fc54633baa638fabb"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-066",
+   "text": "Nowlan Park (UPMC Nowlan Park, Kilkenny GAA): new 4,000 all-seated covered stand, roof for Ardan Breathneach, County Board offices refurbishment; stadium fully operational during works.",
+   "source": "https://ormondeconstruction.ie/project-nowlan-park/",
+   "locator": "intro",
+   "sha256": "4041de639b658beb326085d4985a3256eac71a2135d391766db5317b36ef99de",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-nowlan-park.txt#L26-L27"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-nowlan-park.txt#L35"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/industrial.txt#L34"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/industrial/",
+     "locator": "card",
+     "sha256": "6c621e9236aca12f39ea8a3afe679dd6a5c3d1856ee0e79fc54633baa638fabb"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-067",
+   "text": "Gowran Park racecourse (15 minutes from Kilkenny city): demolition of jockeys' weights room and new two-storey weight room building; limestone cladding; handover reported 8 October 2024.",
+   "source": "https://ormondeconstruction.ie/project-gowran-park/",
+   "locator": "intro",
+   "sha256": "7425ed85fad27507e8a39aa9ad17095aac053ae4d32abe94509919b1a1e8282d",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-gowran-park.txt#L26-L28"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/gowran-park-handover.txt#L25-L28"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/gowran-park-handover.html#L32 (JSON-LD datePublished 2024-10-08T20:38:04+00:00)"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/gowran-park-handover/",
+     "locator": "article",
+     "sha256": "5f1ffd1db9683056b882db9fae742fc30b24cc59c010e792c14db7ef59af13ba"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-068",
+   "text": "Taxback: renovation of a three-storey 20,000 sq ft office block, delivered with a five-month completion deadline.",
+   "source": "https://ormondeconstruction.ie/project-taxback/",
+   "locator": "intro and Minimising",
+   "sha256": "03e0dacb0535e91bd72ac67a3a9ae82604a00b896fcfbf29d87e0d509cf3fe2c",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-taxback.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-taxback.txt#L29"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-069",
+   "text": "Powerscourt Distillery and Visitors Centre, Enniskerry, Co. Wicklow: Ormonde was Main Contractor; new 15m distillery building; restoration of 1730 mill house (protected structure).",
+   "source": "https://ormondeconstruction.ie/project-powerscourt-distillery/",
+   "locator": "intro and Renovation",
+   "sha256": "b1e8ffa48623d5d1201a26e4e8736b7d364b1eca5e9b8c0de90e2720a4875d54",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-powerscourt-distillery.txt#L26-L29"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-070",
+   "text": "Church of Oak Distillery (Ballykelly Distillery) near Monasterevin, Co. Kildare: demolition, asbestos removal, site works.",
+   "source": "https://ormondeconstruction.ie/project-ballykelly-2/",
+   "locator": "intro",
+   "sha256": "ae09b06f56df2578a2957a8852cf83248c3b5fadec19aa656c7ac3e81a4d375c",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-ballykelly-2.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-ballykelly-2.txt#L29"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/home.txt#L71-L72"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/",
+     "locator": "Latest Projects",
+     "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-071",
+   "text": "St. Gerard's Private School, Bray, Co. Wicklow: extension to Junior and Senior schools, fire remediation, all work in a live school with phased handover.",
+   "source": "https://ormondeconstruction.ie/project-st-gerards/",
+   "locator": "intro",
+   "sha256": "9a485790e3c6961d8cc1a5b7062a923aabf40cfa51aa31669e3d4b338403bb27",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-st-gerards.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-st-gerards.txt#L30"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/education.txt#L29"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/education/",
+     "locator": "card",
+     "sha256": "43d6d4ad8e53601fc535577a7fcd4152fa95e45c6bae97741836d715c1d3bc2a"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-072",
+   "text": "St. Teresian's School, Dublin 4: two-storey build, sports hall, brownfield site in a live school with phased handover.",
+   "source": "https://ormondeconstruction.ie/project-st-teresians/",
+   "locator": "intro",
+   "sha256": "e935a3117df2efd3e0b052710f04b0f14b39c7290f43896c81c6fb5f5979f75b",
+   "verdict": "no_evidence_published",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/project-st-teresians.txt#L26"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/project-st-teresians.txt#L34"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-073",
+   "text": "Ormonde Construction took part in the Construction Industry Federation's International Women's Day event (7 March 2024) via a staff panel member.",
+   "source": "https://ormondeconstruction.ie/international-womens-day/",
+   "locator": "article",
+   "sha256": "82584087de36dc449be9672e6bf59e899bf5940b481f8f76edf585cff126ff89",
+   "verdict": "no_evidence_published",
+   "ruled": true,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/international-womens-day.txt#L25-L28"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/post-sitemap.xml#L42-L43 (lastmod 2024-10-08T21:09:00+00:00)"
+    }
+   ],
+   "also_at": []
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-074",
+   "text": "A staff quantity surveyor works at Ormonde, joined after working at a local Kilkenny firm, England and Dublin (podcast feature, July 2024).",
+   "source": "https://ormondeconstruction.ie/quality-in-quantity/",
+   "locator": "Moving up",
+   "sha256": "325b7f6a24fecd92057b358ef3a0862a8c46f95bbbf444ee0eeae9ec1e73ae2f",
+   "verdict": "no_evidence_published",
+   "ruled": true,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "text/quality-in-quantity.txt#L31"
+    },
+    {
+     "pass": "prove",
+     "ref": "text/lisa-oshea-leading-the-way.txt#L27-L28"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/lisa-oshea-leading-the-way.html#L1012 (link to a Newstalk podcast page, not fetched: outside this audit)"
+    }
+   ],
+   "also_at": [
+    {
+     "source": "https://ormondeconstruction.ie/lisa-oshea-leading-the-way/",
+     "locator": "article",
+     "sha256": "9966423c544a4d88b096f77cea9cb72ef27b1da995dcf82914965199683d035d"
+    }
+   ]
+  },
+  {
+   "schema": "argus-claims/register@1",
+   "run_id": "r-20261027T190529Z-imp",
+   "domain": "ormondeconstruction.ie",
+   "id": "C-075",
+   "text": "Site robots.txt allows all crawlers and lists sitemap_index.xml.",
+   "source": "https://ormondeconstruction.ie/robots.txt",
+   "locator": "whole file",
+   "sha256": "0b4e7573951185bd2029913be1b21336c788d9fa0527e2a3f527c309e03a9814",
+   "verdict": "evidenced",
+   "ruled": false,
+   "refs": [
+    {
+     "pass": "prove",
+     "ref": "https://ormondeconstruction.ie/robots.txt#HTTP 200, live GET 2026-10-27; body 'User-agent: *', 'Disallow:', 'Sitemap: https://ormondeconstruction.ie/sitemap_index.xml'"
+    },
+    {
+     "pass": "prove",
+     "ref": "sources/robots.txt#L3-L6"
+    },
+    {
+     "pass": "prove",
+     "ref": "https://ormondeconstruction.ie/sitemap_index.xml#HTTP 200 content-type text/xml, live GET 2026-10-27"
+    }
+   ],
+   "also_at": []
+  }
+ ],
+ "sources": [
+  {
+   "url": "https://ormondeconstruction.ie/",
+   "sha256": "be13b80e05b4bf43ff0ae195c5f3a95698a1e14eee355bd9d172c6789f5d98c7"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/page-sitemap.xml",
+   "sha256": "3aac6183658d9321fe3f6e54cc4cfc12908dd506a4adc1d28658fd0074bc4711"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/post-sitemap.xml",
+   "sha256": "2d2d5c4ef82c03f4380bb036aea833c6905be4449bbfc6facd3f65d688cf77a1"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/robots.txt",
+   "sha256": "0b4e7573951185bd2029913be1b21336c788d9fa0527e2a3f527c309e03a9814"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/our-team/",
+   "sha256": "794035fe1260a619211d9df999030c6eb26b36e685e2407d7148284b0d59d915"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-one/",
+   "sha256": "b628c4bc1e30a92e974f6a82fc56f0bb5b704c4f0b39af576a90f57e71a4353b"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-two/",
+   "sha256": "2b2393ade494aa09334218c3f90a32b90362540de740935122cfedec1c5e731c"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/faq/",
+   "sha256": "5e3bde0dfc1a76ab24a81efd5af2fea6e4324342667a5f13eba0f8fe89404a40"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/one-page/",
+   "sha256": "9076de2e43ff1f9fca79c1d8c8c36423444080bdaa3b456cfbe9286dfa4df2a5"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/history/",
+   "sha256": "5a3e96693351b690143ebd36523e736e0fdd4e20f16d0427070fbe61156c5f54"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/home/",
+   "sha256": "490ef627d1ec77aa5380e4b7043c25483c70790a750ce168bf7d06a24e917df7"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/team-2/",
+   "sha256": "3ac1572d3843748346a47fc4f58d5dd55187c31ed89c44eae05e7ddf0b7c0291"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/commercial/",
+   "sha256": "f669e6097b6bbf0b9632bd7bf443f965c8f1a655bb804aedf19ed166943747db"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/contact/",
+   "sha256": "8d576ffcb449fa2a30985873bc5ca295f818a4ccf5340054a53f18397c6df320"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/core-values/",
+   "sha256": "e9da29f877edda39eb4f2860ad339a730781984e58590cd4585075613b2bde8c"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/education/",
+   "sha256": "43d6d4ad8e53601fc535577a7fcd4152fa95e45c6bae97741836d715c1d3bc2a"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/industrial/",
+   "sha256": "6c621e9236aca12f39ea8a3afe679dd6a5c3d1856ee0e79fc54633baa638fabb"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/john/",
+   "sha256": "6c9108237d5975fa3764420f5ece9effd93c5007f219010c32a37afb653695e2"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-gowran-park/",
+   "sha256": "7425ed85fad27507e8a39aa9ad17095aac053ae4d32abe94509919b1a1e8282d"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-ballykelly/",
+   "sha256": "4a6cbddd5b975632d4e77134fde7d7de68d16e79cc868cff0c0031bd35002258"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/residential/",
+   "sha256": "9de6ebf87e1809b02f21637d4dd6d3131fe14b8d4881291220233590b6cea1d3"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/upcoming-projects/",
+   "sha256": "541ee3cf21ccabb085043852f12c36d8dee0e71d24274505968551a0a857c66b"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-adamstown/",
+   "sha256": "3cdf423da912c92ae82f480cfb95bc644b6ee87ab3d1b5357dbfa19e7dd5ac6f"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-arus-brugha/",
+   "sha256": "7706b0f7c23722335ad793732fd493b93cd12244a3b95229e35185acf69a770d"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-bergins/",
+   "sha256": "d0e2c26e5c3ea05ee05e4eacc7bcc843b2850506acefa31f4ad888a5f8b05a52"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-callan-primary-care/",
+   "sha256": "c4ea3a70fbb9ba74d659645331f938a2a37409c2d8d2994d35beb74a24f89215"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-castle-oaks/",
+   "sha256": "d831b8f91678b10b749fd59fbacffc853906f0367b872daa54f17af3c594121a"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-college-park/",
+   "sha256": "2eaa8b8ac4624465f46fd700d87a9e042b2e17220c92534b3a590c445a6ff58c"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-droughill/",
+   "sha256": "59fdcc9c82a6cd252e977cd8796cbfcb70b9f8cd247a34befa941ce7df9631b7"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-kilkenny/",
+   "sha256": "e90f6f317e18e4c4eb649575486025af2959facbe18078540a33b054c336a22e"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-market-square/",
+   "sha256": "d7e7c44321a260aa635a58cd0f70316e022226881a3d7eca243f7f925c1286bb"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-meubles/",
+   "sha256": "d52c9c7225b3db1a94b644c00ac9a5a3b026d55c185841dcc29bbcd5179b61ac"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-nowlan-park/",
+   "sha256": "4041de639b658beb326085d4985a3256eac71a2135d391766db5317b36ef99de"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-powerscourt-distillery/",
+   "sha256": "b1e8ffa48623d5d1201a26e4e8736b7d364b1eca5e9b8c0de90e2720a4875d54"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-prl/",
+   "sha256": "f850b4955e9e70e7537c406e47319d6c2b586440011f46fb31dc8b7d8aeb6e48"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-st-gerards/",
+   "sha256": "9a485790e3c6961d8cc1a5b7062a923aabf40cfa51aa31669e3d4b338403bb27"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-st-teresians/",
+   "sha256": "e935a3117df2efd3e0b052710f04b0f14b39c7290f43896c81c6fb5f5979f75b"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-taxback/",
+   "sha256": "03e0dacb0535e91bd72ac67a3a9ae82604a00b896fcfbf29d87e0d509cf3fe2c"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-thomastown-primary-care/",
+   "sha256": "f4f93e274188d60e6a7a0967795636e2f6e0e72bcd17a1935d6b05efea2ebda2"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-walken-street/",
+   "sha256": "4385f3a38128fa3fe5c8c62ac6902d7cd4c69d9dff4a94e8b4b973f4a19d4c1d"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-ballykelly-2/",
+   "sha256": "ae09b06f56df2578a2957a8852cf83248c3b5fadec19aa656c7ac3e81a4d375c"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/sustainability/",
+   "sha256": "18bfcb6d8805081c8d0cd5cfa6340abc58af465fb48cfa36165db6faafd71177"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/oc-news/",
+   "sha256": "50739d8b8fc972f34a0ed952ffe764c26a95095610105d63e432c7743f0496dc"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/design/",
+   "sha256": "49d46afb01127fb56819095c5b1765a4092fd1710550d52646d10ccd465ef179"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/about-company/",
+   "sha256": "6e87a9abd144a32e8bf1d3b7bf0e2b67b1b540bb68528680af1bed2c2aed4e7b"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/team/",
+   "sha256": "ade2f4fadc223b696f94970eb67b4ad3c3e9cb56d0ce3c6ca5f1758842c91906"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/healthandsafety/",
+   "sha256": "8eb8e2c051ce402040b56d278ca57ae5f03711df7a55db455cef402bdb301338"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/healthcare/",
+   "sha256": "fabef18138ef25a2f612d7db71e22c22370d06a1a94736bce91a996d76b8fc3c"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/richie/",
+   "sha256": "9b106b66fe314a2302aadc172e7daeb122b9d4ec2cafc7a51ca4713dcb151478"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/paddy/",
+   "sha256": "28d5debc8d42ccf7a405d6cb89401cdf2007e59db45dea47b9dce49d95ef00d6"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/project-crokers/",
+   "sha256": "38b511d82ff6e10711d49c203c763a4d384b2fcc817bb69d97baeb8935560abf"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/projects/",
+   "sha256": "a84f1a1defee6bc12a94a5c1e483c07c7b150601c9136286239b307b9ad6c1ae"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/news/",
+   "sha256": "e0a05cddae9cf721465c04365c67f2f57477786c4662b7165a547378b7170329"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/new-social-and-affordable-housing-scheme-in-kilkenny/",
+   "sha256": "51dcbf0cee932acc347955ecda16d76b03022154bb707a8c91353b6e4caaa4d8"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/international-womens-day/",
+   "sha256": "82584087de36dc449be9672e6bf59e899bf5940b481f8f76edf585cff126ff89"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/green-light-for-large-new-primary-care-centre/",
+   "sha256": "d6f2d4a8dc7dc4f3aa1bf19baa8e7213a86f154000992a33797b1be5cf3aefa3"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/lisa-oshea-leading-the-way/",
+   "sha256": "9966423c544a4d88b096f77cea9cb72ef27b1da995dcf82914965199683d035d"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/gowran-park-handover/",
+   "sha256": "5f1ffd1db9683056b882db9fae742fc30b24cc59c010e792c14db7ef59af13ba"
+  },
+  {
+   "url": "https://ormondeconstruction.ie/quality-in-quantity/",
+   "sha256": "325b7f6a24fecd92057b358ef3a0862a8c46f95bbbf444ee0eeae9ec1e73ae2f"
+  }
+ ]
+}
